@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>I.E. Aureliano Florez Cardona</title>
+ 
+  <!-- Bootstrap 5 -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- Bootstrap Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet" />
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <!-- Hoja de estilos externa -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+ 
+  <!-- ========== NAVBAR ========== -->
+  <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+    <div class="container">
+ 
+      <!-- Logo + nombre -->
+      <a class="navbar-brand d-flex align-items-center gap-2" href="#inicio">
+        <div class="brand-icon">
+          <img src="images/escudo.png" alt="Escudo I.E.A.F.C." class="navbar-shield">
+        </div>
+        <div class="brand-text">
+          <span class="brand-abbr">I.E.A.F.C.</span>
+          <span class="brand-full d-none d-lg-block">Aureliano Florez Cardona</span>
+        </div>
+      </a>
+ 
+      <!-- Toggler -->
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+              data-bs-target="#navbarNav" aria-controls="navbarNav"
+              aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+ 
+      <!-- Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="#inicio">
+              <i class="bi bi-house-door me-1"></i>Inicio
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#videos">
+              <i class="bi bi-play-circle me-1"></i>Videos
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#institucion">
+              <i class="bi bi-building me-1"></i>I.E.A.F.C.
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+ 
+  <!-- ========== HERO (INICIO) ========== -->
+  <section id="inicio" class="hero-section">
+    <!-- Decoración de fondo -->
+    <div class="hero-bg-deco">
+      <div class="deco-circle deco-1"></div>
+      <div class="deco-circle deco-2"></div>
+      <div class="deco-leaf deco-3"></div>
+    </div>
+ 
+    <div class="container hero-content">
+      <div class="row align-items-center min-vh-100">
+        <div class="col-lg-7" data-aos="fade-right">
+ 
+          <!-- Badge superior -->
+          <div class="hero-badge mb-4">
+            <i class="bi bi-stars me-2"></i>
+            Plataforma Informativa Digital
+          </div>
+ 
+          <h1 class="hero-title">
+            Aprende, Crece<br />
+            <span class="title-accent">e Inspira</span>
+          </h1>
+ 
+          <p class="hero-desc">
+            La <strong>Institución Educativa Aureliano Florez Cardona</strong> te invita a
+            explorar nuestra colección de contenidos informativos. Contenido de calidad, pensado
+            para estudiantes, docentes y familias.
+          </p>
+ 
+          <div class="hero-actions">
+            <a href="#videos" class="btn btn-accent btn-lg me-3">
+              <i class="bi bi-play-fill me-2"></i>Ver Videos
+            </a>
+            <a href="#institucion" class="btn btn-outline-light btn-lg">
+              Conocer la I.E.
+            </a>
+          </div>
+ 
+          <!-- Estadísticas rápidas -->
+          <div class="hero-stats mt-5">
+            <div class="stat-item">
+              <span class="stat-number">3+</span>
+              <span class="stat-label">Videos</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">100%</span>
+              <span class="stat-label">Gratuito</span>
+            </div>
+            <div class="stat-divider"></div>
+            <div class="stat-item">
+              <span class="stat-number">HD</span>
+              <span class="stat-label">Calidad</span>
+            </div>
+          </div>
+ 
+        </div>
+ 
+        <!-- Imagen hero (decorativa) -->
+        <div class="col-lg-5 d-none d-lg-flex justify-content-center" data-aos="fade-left">
+          <div class="hero-image-wrap">
+            <img src="images/escudo.png" alt="Escudo Institucional" class="hero-shield" />
+            <div class="hero-img-card hero-img-card--1">
+              <i class="bi bi-camera-video-fill"></i>
+              <span>Video Informativo</span>
+            </div>
+            <div class="hero-img-card hero-img-card--2">
+              <i class="bi bi-book-fill"></i>
+              <span>Aprendizaje</span>
+            </div>
+            <div class="hero-img-card hero-img-card--3">
+              <i class="bi bi-people-fill"></i>
+              <span>Comunidad</span>
+            </div>
+            <div class="hero-circle-bg"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- Scroll indicator -->
+    <div class="scroll-indicator">
+      <span>Desplázate</span>
+      <i class="bi bi-chevron-double-down"></i>
+    </div>
+  </section>
+ 
+  <!-- ========== SECCIÓN VIDEOS ========== -->
+  <section id="videos" class="videos-section section-padding">
+    <div class="container">
+ 
+      <!-- Encabezado de sección -->
+      <div class="section-header text-center mb-5">
+        <div class="section-tag">
+          <i class="bi bi-collection-play me-2"></i>Contenido Multimedia
+        </div>
+        <h2 class="section-title">Nuestros <span class="title-accent">Videos</span></h2>
+        <p class="section-desc">
+          Explora los contenidos digitales preparados por estudiantes de la I.E.A.F.C.
+          para fortalecer el proceso de enseñanza, aprendizaje y sentido de pertenencia.
+        </p>
+      </div>
+ 
+      <!-- Grid de tarjetas de video -->
+      <div class="row g-4 justify-content-center">
+ 
+        <!-- Tarjeta 1 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="video-card">
+            <div class="video-card__thumbnail">
+              <img
+                src="images/presentacion.jpg"
+                alt="Bienvenida institucional"
+                class="video-card__img"
+              />
+              <div class="video-card__overlay">
+                <button class="btn-play" aria-label="Reproducir video">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <span class="video-card__badge">Institucional</span>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">Presentación Institucional</h3>
+              <p class="video-card__desc">
+                Video introductorio institucional
+              </p>
+              <div class="video-card__footer">
+                <span class="video-duration">
+                  <i class="bi bi-clock me-1"></i>25s
+                </span>
+                <a href="videos/presentacion.mp4" target="_blank" class="btn btn-accent-sm">
+                  <i class="bi bi-play-circle me-1"></i>Reproducir
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Tarjeta 2 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="video-card video-card--featured">
+            <div class="video-card__thumbnail">
+              <img
+                src="images/bienvenida.jpg"
+                alt="Proyecto de aula"
+                class="video-card__img"
+              />
+              <div class="video-card__overlay">
+                <button class="btn-play" aria-label="Reproducir video">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <span class="video-card__badge video-card__badge--featured">Destacado</span>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">Video de Bienvenida </h3>
+              <p class="video-card__desc">
+                Un video animado de el escudo dando una bienvenida a la institución.
+              </p>
+              <div class="video-card__footer">
+                <span class="video-duration">
+                  <i class="bi bi-clock me-1"></i>12:05
+                </span>
+                <a href="videos/bienvenida.mp4" target="_blank" class="btn btn-accent-sm">
+                  <i class="bi bi-play-circle me-1"></i>Reproducir
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+        <!-- Tarjeta 3 -->
+        <div class="col-md-6 col-lg-4">
+          <div class="video-card">
+            <div class="video-card__thumbnail">
+              <img
+                src="images/valores.jpg"
+                alt="Convivencia escolar"
+                class="video-card__img"
+              />
+              <div class="video-card__overlay">
+                <button class="btn-play" aria-label="Reproducir video">
+                  <i class="bi bi-play-fill"></i>
+                </button>
+              </div>
+              <span class="video-card__badge">Comunidad</span>
+            </div>
+            <div class="video-card__body">
+              <h3 class="video-card__title">Convivencia y Valores</h3>
+              <p class="video-card__desc">
+               Conoce los valores que represantan a la institución.
+              </p>
+              <div class="video-card__footer">
+                <span class="video-duration">
+                  <i class="bi bi-clock me-1"></i>6:50
+                </span>
+                <a href="videos/valores.mp4" target="_blank" class="btn btn-accent-sm">
+                  <i class="bi bi-play-circle me-1"></i>Reproducir
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+      </div><!-- /row -->
+    </div>
+  </section>
+ 
+  <!-- ========== SECCIÓN I.E.A.F.C. ========== -->
+  <section id="institucion" class="institucion-section section-padding">
+    <div class="container">
+ 
+      <!-- Encabezado -->
+      <div class="section-header text-center mb-5">
+        <div class="section-tag">
+          <i class="bi bi-building me-2"></i>Nuestra Institución
+        </div>
+        <h2 class="section-title">Conoce la <span class="title-accent">I.E.A.F.C.</span></h2>
+      </div>
+ 
+      <div class="row align-items-center g-5">
+ 
+        <!-- Columna de texto (izquierda) -->
+        <div class="col-lg-6">
+          <div class="institucion-text">
+ 
+            <p class="inst-lead">
+              La <strong>Institución Educativa Aureliano Flórez Cardona</strong> es un centro
+              educativo comprometido con la formación integral de sus estudiantes, cultivando
+              valores, conocimiento y sana convivencia.
+            </p>
+ 
+            <div class="inst-features">
+ 
+              <div class="inst-feature-item">
+                <div class="inst-feature-icon">
+                  <i class="bi bi-award-fill"></i>
+                </div>
+                <div>
+                  <h4>Excelencia Académica</h4>
+                  <p>Programas de estudio actualizados y docentes altamente calificados que
+                  inspiran el gusto por el saber.</p>
+                </div>
+              </div>
+ 
+              <div class="inst-feature-item">
+                <div class="inst-feature-icon">
+                  <i class="bi bi-heart-fill"></i>
+                </div>
+                <div>
+                  <h4>Formación en Valores</h4>
+                  <p>Fomentamos el respeto, la solidaridad y la responsabilidad como pilares
+                  de la convivencia escolar.</p>
+                </div>
+              </div>
+ 
+              <div class="inst-feature-item">
+                <div class="inst-feature-icon">
+                  <i class="bi bi-lightbulb-fill"></i>
+                </div>
+                <div>
+                  <h4>Arte y Cultura</h4>
+                  <p>Fomentamos la creatividad, creación y expresión artística mediante jornadas
+				  y actividades culturales.</p>
+                </div>
+              </div>
+ 
+            </div><!-- /inst-features -->
+ 
+            <a href="mailto:contacto@ieaurelianoflorescardona.edu.co" class="btn btn-primary-inst mt-4">
+              <i class="bi bi-envelope-fill me-2"></i>Contáctanos
+            </a>
+ 
+          </div>
+        </div>
+ 
+        <!-- Columna de imagen (derecha) -->
+        <div class="col-lg-6">
+          <div class="institucion-img-wrap">
+            <img
+              src="images/institucion.jpg"
+              alt="Institución Educativa Aureliano Flores Cardona"
+              class="inst-main-img"
+            />
+            <!-- Tarjeta flotante -->
+            <div class="inst-float-card">
+              <i class="bi bi-patch-check-fill"></i>
+              <div>
+                <strong>Educación de Calidad</strong>
+                <span>Comprometidos con el futuro</span>
+              </div>
+            </div>
+          </div>
+        </div>
+ 
+      </div><!-- /row -->
+    </div>
+  </section>
+ 
+  <!-- ========== FOOTER ========== -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-inner">
+ 
+        <!-- Logo + descripción -->
+        <div class="footer-brand">
+          <div class="footer-logo">
+            <i class="bi bi-mortarboard-fill"></i>
+            <span>I.E.A.F.C.</span>
+          </div>
+          <p>Formando ciudadanos íntegros,<br />construyendo el futuro del país.</p>
+        </div>
+ 
+        <!-- Links rápidos -->
+        <div class="footer-links">
+          <h6>Navegación</h6>
+          <ul>
+            <li><a href="#inicio">Inicio</a></li>
+            <li><a href="#videos">Videos</a></li>
+            <li><a href="#institucion">I.E.A.F.C.</a></li>
+          </ul>
+        </div>
+ 
+        <!-- Contacto -->
+        <div class="footer-contact">
+          <h6>Contacto</h6>
+          <ul>
+            <li><i class="bi bi-envelope me-2"></i>ieafccreaciondigital@gmail.com</li>
+            <li><i class="bi bi-telephone me-2"></i>(+57) 000 000 0000</li>
+            <li><i class="bi bi-geo-alt me-2"></i>Anserma, Caldas</li>
+          </ul>
+        </div>
+ 
+      </div><!-- /footer-inner -->
+ 
+      <div class="footer-bottom">
+        <p>
+          &copy; <span id="year"></span>
+          Institución Educativa Aureliano Flórez Cardona.
+        </p>
+      </div>
+    </div>
+  </footer>
+ 
+  <!-- Bootstrap 5 JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+ 
+  <script>
+    /* ── Año dinámico en el footer ── */
+    document.getElementById('year').textContent = new Date().getFullYear();
+ 
+    /* ── Navbar: fondo sólido al hacer scroll ── */
+    const nav = document.getElementById('mainNav');
+    window.addEventListener('scroll', () => {
+      nav.classList.toggle('nav-scrolled', window.scrollY > 60);
+    });
+ 
+    /* ── Smooth scroll para todos los enlaces ── */
+    document.querySelectorAll('a[href^="#"]').forEach(link => {
+      link.addEventListener('click', e => {
+        const target = document.querySelector(link.getAttribute('href'));
+        if (target) {
+          e.preventDefault();
+          target.scrollIntoView({ behavior: 'smooth' });
+          /* Cerrar menú móvil si está abierto */
+          const bsCollapse = bootstrap.Collapse.getInstance(
+            document.getElementById('navbarNav')
+          );
+          if (bsCollapse) bsCollapse.hide();
+        }
+      });
+    });
+ 
+    /* ── Animación de aparición al entrar en viewport ── */
+    const observer = new IntersectionObserver(
+      entries => entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('visible');
+          observer.unobserve(e.target);
+        }
+      }),
+      { threshold: 0.15 }
+    );
+    document.querySelectorAll(
+      '.video-card, .inst-feature-item, .section-header'
+    ).forEach(el => {
+      el.classList.add('fade-in-up');
+      observer.observe(el);
+    });
+  </script>
+</body>
+</html>
+ 
